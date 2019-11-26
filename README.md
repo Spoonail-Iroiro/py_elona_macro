@@ -5,12 +5,12 @@ pyautoguiとついでにtesseract（tesserocr使用）でelonaマクロ
 ほぼ自分用
 
 ## 環境
-Anaconda 4.7.12
-python3.7.0
-pyautogui
-pillow
-PySide2
-tesserocr
+Anaconda 4.7.12  
+python3.7.0  
+pyautogui  
+pillow  
+PySide2  
+tesserocr  
 
 py_macro.ymlにも記載
 
