@@ -4,13 +4,15 @@ elonaマクロ（python版）
 pyautoguiとついでにtesseract（tesserocr使用）でelonaマクロ
 ほぼ自分用
 
-## 開発環境
+## 環境
 Anaconda 4.7.12
 python3.7.0
 pyautogui
 pillow
 PySide2
 tesserocr
+
+py_macro.ymlにも記載
 
 ## 使い方
 - area_setting_guiを起動、マウスドラッグでOCR監視範囲を指定

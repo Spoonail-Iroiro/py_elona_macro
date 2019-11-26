@@ -1,0 +1,11 @@
+name: py_macro
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pyautogui
+  - tesserocr
+  - pyside2
+  - python==3.7
+prefix: C:\Users\spoon\Anaconda3\envs\py_macro
+
