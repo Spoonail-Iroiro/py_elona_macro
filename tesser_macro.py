@@ -5,7 +5,7 @@ from ocr_watcher import OCRWatcher
 import pyautogui
 import ctypes
 from macro.macro_util import *
-from macro.elona_harvest import main
+from macro.elona_gen import main
 
 def macro_test(watcher):
     pre_elona()
