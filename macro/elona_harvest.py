@@ -24,12 +24,12 @@ def main(watcher):
         click_key_sleep("7",1.0)
 
         start = time.time()
-        while (time.time() - start) < 78:
+        while (time.time() - start) < 89:
             click_key("6",interval=0.033)
             if ("そのまま" in watcher.ocr_result) or ("におちた" in watcher.ocr_result):
                 print("Sleep")
                 break
-            if ("法はもう" in watcher.ocr_result):
+            if ("法はもう" in watcher.ocr_result) or ("使えない" in watcher.ocr_result):
                 if (time.time() - start) < 7:
                     if fail_count >= 3:
                         exit_flag = True

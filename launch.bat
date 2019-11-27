@@ -1,3 +1,3 @@
-call C:\Users\spoon\Anaconda3\Scripts\activate.bat
-activate py_macro && C:\Users\spoon\Anaconda3\envs\py_macro\python.exe tesser_macro.py
+call %ANACONDA_PATH%\Scripts\activate.bat
+activate %PYMACRO_ENV_NAME% && python.exe tesser_macro.py
 pause
